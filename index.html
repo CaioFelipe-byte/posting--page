@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <main>
+    <section>
+      <form id="form-post">
+        <input type="text" id="titulo" placeholder="Digite o título" required>
+        <textarea id="conteudo" placeholder="Digite o conteúdo" required></textarea>
+        <button type="submit">Postar</button>
+      </form>
+    </section>
 
+    <article>
+      <h2 id="renderizador-titulo"></h2>
+      <p id="renderizador-conteudo"></p>
+    </article>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
