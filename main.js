@@ -4,8 +4,8 @@ const conteudo = document.querySelector('#conteudo');
 const renderizadorTitulo = document.querySelector('#renderizador-titulo');
 const renderizadorConteudo = document.querySelector('#renderizador-conteudo');
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
   const data = {
     title: titulo.value,
